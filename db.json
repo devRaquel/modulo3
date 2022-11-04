@@ -1,56 +1,290 @@
 {
-    "produtos": [
+  "professores": [
       {
-        "id": 1,
-        "nome": "Hambúrguer",
-        "descricao": "Pão, bife de hambúrguer 90g, salada e batata.",
-        "preco": 8.5,
-        "categoria_id": 1
+          "nome": "Mark Brandao",
+          "email": "markbrandao@hotmail.com",
+          "pais": "Brasil",
+          "estado": "Minas Gerais",
+          "Cidade": "Uberlândia",
+          "id_professor": "43942-9382"
       },
       {
-        "id": 2,
-        "nome": "X-Búrguer",
-        "descricao": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, salada e batata.",
-        "preco": 10.5,
-        "categoria_id": 1
+          "nome": "Karen Guedes",
+          "email": "karenguedes8775@yahoo.com",
+          "pais": "Brasil",
+          "estado": "Goiás",
+          "Cidade": "Anápolis",
+          "id_professor": "79392-8783"
       },
       {
-        "id": 3,
-        "nome": "X-Bacon",
-        "descricao": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, 2 fatia de bacon, salada e batata.",
-        "preco": 12.5,
-        "categoria_id": 1
+          "nome": "Deborah Pereira",
+          "email": "deborahpereira7803@gmail.com",
+          "pais": "Brasil",
+          "estado": "São Paulo",
+          "Cidade": "Campinas",
+          "id_professor": "69328-6332"
       },
       {
-        "id": 4,
-        "nome": "X-Tudo",
-        "descricao": "Pão, 2 bifes de hambúrguer 90g, 2 fatias de queijo, 4 fatias de bacon, salada e batata.",
-        "preco": 14.5,
-        "categoria_id": 1
-      },
-      {
-        "id": 5,
-        "nome": "Coca cola 350ml",
-        "descricao": "",
-        "preco": 5.5,
-        "categoria_id": 2
-      },
-      {
-        "id": 6,
-        "nome": "Coca cola 600ml",
-        "descricao": "",
-        "preco": 7.5,
-        "categoria_id": 2
+          "nome": "Skyler de Azevedo",
+          "email": "skylerdeazevedo8272@hotmail.com",
+          "pais": "Brasil",
+          "estado": "Paraná",
+          "Cidade": "Foz do Iguaçu",
+          "id_professor": "57392-5213"
       }
-    ],
-    "categorias": [
+  ],
+  
+  "cursos": [
       {
-        "id": 1,
-        "nome": "Hambúrgueres"
+          "materia": "inglês básico",
+          "duracao": "12 semanas",
+          "turno": "manhã",
+          "id_turma": "Turma I1-M"
       },
       {
-        "id": 2,
-        "nome": "Refrigerantes"
+          "materia": "inglês básico",
+          "duracao": "12 semanas",
+          "turno": "tarde",
+          "id_turma": "Turma I1-T"
+      },
+      {
+          "materia": "Espanhol básico",
+          "duracao": "12 semanas",
+          "turno": "manhã",
+          "id_turma": "Turma E1-M"
+      },
+      {
+          "materia": "Espanhol básico",
+          "duracao": "12 semanas",
+          "turno": "tarde",
+          "id_turma": "Turma E1T"
       }
-    ]
-  }
+  ],
+  "alunos": [
+      {
+          "nome": "Timothy Domingues",
+          "email": "timothydomingues@outlook.com",
+          "celular": "+55 35 95924-5036",
+          "pais": "Brasil",
+          "estado": "Rio Grande do Sul",
+          "Cidade": "Gravataí",
+          "id_aluno": "95544-270"
+      },
+      {
+          "nome": "Todd Brito",
+          "email": "toddbrito1667@gmail.com",
+          "celular": "+55 21 96754-7621",
+          "pais": "Brasil",
+          "estado": "Bahia",
+          "Cidade": "Juazeiro",
+          "id_aluno": "42431-163"
+      },
+      {
+          "nome": "Tucker Almeida",
+          "email": "tuckeralmeida@hotmail.com",
+          "celular": "+55 24 99928-6820",
+          "pais": "Brasil",
+          "estado": "Rio de Janeiro",
+          "Cidade": "São João de Meriti",
+          "id_aluno": "23360-593"
+      },
+      {
+          "nome": "Cooper Batista",
+          "email": "cooperbatista6953@outlook.com",
+          "celular": "+55 21 96368-3315",
+          "pais": "Brasil",
+          "estado": "Pernambuco",
+          "Cidade": "Cabo de Santo Agostinho",
+          "id_aluno": "54546-987"
+      },
+      {
+          "nome": "Reese Chaves",
+          "email": "reesechaves@hotmail.com",
+          "celular": "+55 21 99461-3367",
+          "pais": "Brasil",
+          "estado": "Ceará",
+          "Cidade": "Maracanaú",
+          "id_aluno": "63444-737"
+      },
+      {
+          "nome": "Ashely Fonseca",
+          "email": "ashelyfonseca3245@hotmail.com",
+          "celular": "+55 21 98544-4346",
+          "pais": "Brasil",
+          "estado": "Pará",
+          "Cidade": "Santarém",
+          "id_aluno": "66391-769"
+      },
+      {
+          "nome": "Isaac da Cunha",
+          "email": "isaacdacunha2728@hotmail.com",
+          "celular": "+55 42 92189-8382",
+          "pais": "Brasil",
+          "estado": "Goiás",
+          "Cidade": "Aparecida de Goiânia",
+          "id_aluno": "75754-115"
+      },
+      {
+          "nome": "Galvin Simoes",
+          "email": "galvinsimoes9929@hotmail.com",
+          "celular": "+55 94 94256-7692",
+          "pais": "Brasil",
+          "estado": "Rio de Janeiro",
+          "Cidade": "Duque de Caxias",
+          "id_aluno": "24256-528"
+      },
+      {
+          "nome": "Nevada da Rosa",
+          "email": "nevadadarosa7851@outlook.com",
+          "celular": "+55 22 97531-8558",
+          "pais": "Brasil",
+          "estado": "Rio Grande do Sul",
+          "Cidade": "Santa Maria",
+          "id_aluno": "94344-381"
+      },
+      {
+          "nome": "Rowan Nonato",
+          "email": "rowannonato@yahoo.com",
+          "celular": "+55 40 95539-1156",
+          "pais": "Brasil",
+          "estado": "Rio Grande do Sul",
+          "Cidade": "Santa Maria",
+          "id_aluno": "92136-225"
+      },
+      {
+          "nome": "Clare Campos",
+          "email": "clarecampos3944@hotmail.com",
+          "celular": "+55 21 99586-4841",
+          "pais": "Brasil",
+          "estado": "Ceará",
+          "Cidade": "Fortaleza",
+          "id_aluno": "62979-309"
+      },
+      {
+          "nome": "Karly Mota",
+          "email": "karlymota@yahoo.com",
+          "celular": "+55 21 99161-7550",
+          "pais": "Brasil",
+          "estado": "Minas Gerais",
+          "Cidade": "Sete Lagoas",
+          "id_aluno": "39186260"
+      },
+      {
+          "nome": "Veronica Das Chagas",
+          "email": "veronicadaschagas5649@outlook.com",
+          "celular": "+55 21 96966-2273",
+          "pais": "Brasil",
+          "estado": "Paraná",
+          "Cidade": "São José dos Pinhais",
+          "id_aluno": "83425-046"
+      },
+      {
+          "nome": "Leroy Alves",
+          "email": "leroyalves@outlook.com",
+          "celular": "+55 21 99813-8814",
+          "pais": "Brasil",
+          "estado": "Paraíba",
+          "Cidade": "Bayeux",
+          "id_aluno": "58394-161"
+      },
+      {
+          "nome": "Stewart Cardoso",
+          "email": "stewartcardoso@outlook.com",
+          "celular": "+55 21 99635-7148",
+          "pais": "Brasil",
+          "estado": "Minas Gerais",
+          "Cidade": "Sete Lagoas",
+          "id_aluno": "35388864"
+      },
+      {
+          "nome": "Driscoll Matos",
+          "email": "driscollmatos@outlook.com",
+          "celular": "+55 21 96415-5085",
+          "pais": "Brasil",
+          "estado": "Maranhão",
+          "Cidade": "Barra do Corda",
+          "id_aluno": "65128-354"
+      },
+      {
+          "nome": "Timothy Moura",
+          "email": "timothymoura3693@gmail.com",
+          "celular": "+55 21 98692-9168",
+          "pais": "Brasil",
+          "estado": "Pernambuco",
+          "Cidade": "Paulista",
+          "id_aluno": "50659-324"
+      },
+      {
+          "nome": "Kevyn Chagas",
+          "email": "kevynchagas3807@hotmail.com",
+          "celular": "+55 43 92881-8043",
+          "pais": "Brasil",
+          "estado": "Maranhão",
+          "Cidade": "São Luís",
+          "id_aluno": "65777-769"
+      },
+      {
+          "nome": "Galena Furtado",
+          "email": "galenafurtado@hotmail.com",
+          "celular": "+55 83 95306-4298",
+          "pais": "Brasil",
+          "estado": "São Paulo",
+          "Cidade": "Jundiaí",
+          "id_aluno": "12668-324"
+      },
+      {
+          "nome": "Shay de Abreu",
+          "email": "shaydeabreu9233@hotmail.com",
+          "celular": "+55 22 98684-9139",
+          "pais": "Brasil",
+          "estado": "Goiás",
+          "Cidade": "Goiânia",
+          "id_aluno": "76777-103"
+      },
+      {
+          "nome": "Olga Bueno",
+          "email": "olgabueno5889@yahoo.com",
+          "celular": "+55 21 96425-0386",
+          "pais": "Brasil",
+          "estado": "Pará",
+          "Cidade": "Belém",
+          "id_aluno": "67722-732"
+      },
+      {
+          "nome": "Donovan Maciel",
+          "email": "donovanmaciel4611@outlook.com",
+          "celular": "+55 22 98751-4345",
+          "pais": "Brasil",
+          "estado": "Pará",
+          "Cidade": "Bragança",
+          "id_aluno": "67254-295"
+      },
+      {
+          "nome": "Nicholas da Silveira",
+          "email": "nicholasdasilveira@yahoo.com",
+          "celular": "+55 21 96113-1204",
+          "pais": "Brasil",
+          "estado": "Goiás",
+          "Cidade": "Luziânia",
+          "id_aluno": "75737-071"
+      },
+      {
+          "nome": "Wing Henrique",
+          "email": "winghenrique@yahoo.com",
+          "celular": "+55 24 99562-1066",
+          "pais": "Brasil",
+          "estado": "Minas Gerais",
+          "Cidade": "Uberaba",
+          "id_aluno": "31845342"
+      },
+      {
+          "nome": "Mara Fonseca",
+          "email": "marafonseca@hotmail.com",
+          "celular": "+55 24 99968-7822",
+          "pais": "Brasil",
+          "estado": "Goiás",
+          "Cidade": "Rio Verde",
+          "id_aluno": "76743-762"
+      }
+  ]
+}
